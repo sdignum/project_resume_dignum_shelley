@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+.clearfix {
+	clear: both;
+}
+
 body {
 	font-family: "museo sans", sans-serif;
 	font-size: 16px;
@@ -12,13 +16,24 @@ body {
 	font-weight: 300;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	line-height: normal;
+}
+
 h1, h3 {
 	text-transform: uppercase;
-	font-weight: 500;
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 3em;
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 500;
 }
 
 a {
@@ -47,7 +62,7 @@ a {
 	font-size: 18px;
 	padding: 15px;
 	border: solid #fff 1px;
-	width: 35%;
+	width: 47%;
 	margin: auto;
 }
 
@@ -82,4 +97,54 @@ span.dash-bottom {
 
 #menu ul {
 	list-style: none;
+}
+
+
+/* Section 2 - Work Experience */
+
+#section2 {
+	width:100%;
+	background-color: #f48668;
+	padding: 25px;
+}
+
+#section2 h2 {
+	margin-bottom: 30px;
+}
+
+#section2 h3, #section2 h4 {
+	margin-bottom: 0;
+}
+
+#section2 p {
+	margin-top: 0;
+}
+
+.arrow-box { 
+	padding: 15px;
+	position: relative; 
+	background: rgba(255, 255, 255, 1); 
+} 
+
+.arrow-box:after { 
+	bottom: 100%; 
+	left: 50%; 
+	border: solid transparent; 
+	content: " "; 
+	height: 0; 
+	width: 0; 
+	position: absolute; 
+	pointer-events: none; 
+	border-color: rgba(136, 183, 213, 0); 
+	border-bottom-color: rgba(255, 255, 255, 1);  
+	border-width: 20px; 
+	margin-left: -80px; 
+}
+
+.tab {
+	float: right;
+	background-color: #4d4d4d;
+	color: #fff;
+	padding: 15px;
+	margin-bottom: 40px;
 }
