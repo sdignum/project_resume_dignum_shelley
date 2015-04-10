@@ -41,7 +41,7 @@ a {
 	line-height: normal;
 }
 
-section {
+section, footer {
 	width: 100%;
 	padding: 25px;
 }
@@ -803,4 +803,21 @@ to {
 .source {
 	font-size: .8em;
 	margin-top: 10px;
+}
+
+/* Footer Section */
+
+footer {
+	background-color: #e75140;
+	text-align: center;
+	color: #fff;
+	font-size: .8em;
+}
+
+footer a {
+	color: #fff;
+}
+
+#phone, #email {
+	font-size: 18px;
 }
