@@ -41,7 +41,7 @@ a {
 	line-height: normal;
 }
 
-#section1, #section2, #section3 {
+section {
 	width: 100%;
 	padding: 25px;
 }
@@ -783,4 +783,24 @@ to {
 to {
 	width: 100%
 }
+}
+
+/* Testimonials Section */
+
+#section4 {
+	background-color: #E3D985;
+}
+
+.testimonial {
+	padding: 30px 50px;
+}
+
+.quote {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+.source {
+	font-size: .8em;
+	margin-top: 10px;
 }
