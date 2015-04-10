@@ -24,11 +24,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, h3 {
 	text-transform: uppercase;
+	background-color: inherit;
+	z-index: 100;
 }
 
 h1 {
 	font-size: 3em;
 	color: #fff;
+	margin-top: 0;
+	padding: 40px 0 10px 0;
 }
 
 h2 {
@@ -44,7 +48,7 @@ a {
 
 section, footer {
 	width: 100%;
-	padding: 25px;
+	padding: 0 25px 25px 25px;
 /*	height: 100vh;*/
 	overflow: hidden;
 }
@@ -125,7 +129,7 @@ span.dash-bottom {
 }
 
 nav {
-	
+
 }
 
 #menu {
@@ -174,6 +178,7 @@ nav {
 	padding: 15px;
 	position: relative; 
 	background: rgba(255, 255, 255, 1); 
+	z-index: 5;
 } 
 
 .arrow-box:after { 
