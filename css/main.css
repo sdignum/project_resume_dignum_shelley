@@ -916,4 +916,47 @@ footer a {
 }
 
 
-@media min-width: 4
+@media (min-width: 715px) {
+
+#section1 img {
+	margin-top: 150px;
+}
+
+h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1{
+	font-size: 4.5em;
+}
+
+#section2 h2 {
+	float: left;
+	width: 30%;
+}
+.arrow-box {
+	width: 65%;
+	float: right;
+	margin-bottom: 15px;
+}
+.arrow-box:after { 
+	opacity: 0; 
+}
+
+.skills {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+
+.other {
+	clear: both;
+}
+
+.degree {
+	float: left;
+	clear: left;
+	width: 30%;
+}
+
+#section4 h2 {
+	margin-top: 0;
+}
+
+}
