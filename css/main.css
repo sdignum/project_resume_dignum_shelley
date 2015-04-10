@@ -960,3 +960,25 @@ h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1{
 }
 
 }
+
+@media (min-width: 1000px) {
+
+.skills {
+	width: 30%;
+	float: left;
+	margin-right: 3.33%;
+}
+.other {
+	clear: none;
+}
+
+.testimonial {
+	margin-top: 10px;
+}
+
+#phone, #email {
+	font-size: 2.5em;
+}
+
+
+}
