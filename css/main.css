@@ -41,12 +41,16 @@ a {
 	line-height: normal;
 }
 
+#section1, #section2, #section3 {
+	width: 100%;
+	padding: 25px;
+}
+
 #section1 {
-	width:100%;
 	text-align: center;
 	background-color: #e75140;
 	color: #fff;
-	padding: 30px 0;
+/*	padding: 30px 0;*/
 	line-height: normal;
 }
 
@@ -103,12 +107,10 @@ span.dash-bottom {
 /* Section 2 - Work Experience */
 
 #section2 {
-	width:100%;
 	background-color: #f48668;
-	padding: 25px;
 }
 
-#section2 h2 {
+#section2 h2, #section3 h2 {
 	margin-bottom: 30px;
 }
 
@@ -150,4 +152,635 @@ span.dash-bottom {
 	background-color: #4d4d4d;
 	color: #fff;
 	padding: 15px;
+}
+
+/* Skills Section */
+
+#section3 {
+	background-color: #BCD8C1;
+}
+
+.skills {
+	margin-bottom: 60px;
+}
+
+.skill-bar {
+	width: 100%;
+	height: 45px;
+	position: relative;
+	background: #fff;
+	margin: 20px auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#skill-html {
+ width: 90%;
+ animation: Animate-HTML 4s;
+ -webkit-animation: Animate-HTML 4s;
+ -moz-animation: Animate-HTML 4s;
+ -o-animation: Animate-HTML 4s;
+ height: 45px;
+ position: absolute;
+ background-color: #e75140;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ }
+ @keyframes Animate-HTML {
+ a from {width: 10px;
+ }
+ to {width: 90%
+ }
+ }
+ @-webkit-keyframes Animate-HTML {
+ from {width: 10px;
+ }
+ to {width: 90%
+ }
+ }
+ @-moz-keyframes Animate-HTML {
+ from {width: 10px;
+ }
+ to {width: 90%
+ }
+ }
+ @-o-keyframes Animate-HTML {
+ from {width: 10px;
+ }
+ to {width: 90%
+ }
+ }
+
+ #skill-css {
+ width: 70%;
+ animation: Animate-CSS 4s;
+ -webkit-animation: Animate-CSS 4s;
+ -moz-animation: Animate-CSS 4s;
+ -o-animation: Animate-CSS 4s;
+ height: 45px;
+ position: absolute;
+ background-color: #e75140;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ }
+ @keyframes Animate-CSS {
+ a from {width: 10px;
+ }
+ to {width: 70%
+ }
+ }
+ @-webkit-keyframes Animate-CSS {
+ from {width: 10px;
+ }
+ to {width: 70%
+ }
+ }
+ @-moz-keyframes Animate-CSS {
+ from {width: 10px;
+ }
+ to {width: 70%
+ }
+ }
+ @-o-keyframes Animate-CSS {
+ from {width: 10px;
+ }
+ to {width: 70%
+ }
+ }
+
+#skill-js {
+ width: 50%;
+ animation: Animate-js 4s;
+ -webkit-animation: Animate-js 4s;
+ -moz-animation: Animate-js 4s;
+ -o-animation: Animate-js 4s;
+ height: 45px;
+ position: absolute;
+ background-color: #e75140;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ }
+ @keyframes Animate-js {
+ a from {width: 10px;
+ }
+ to {width: 50%
+ }
+ }
+ @-webkit-keyframes Animate-js {
+ from {width: 10px;
+ }
+ to {width: 50%
+ }
+ }
+ @-moz-keyframes AAnimate-js {
+ from {width: 10px;
+ }
+ to {width: 50%
+ }
+ }
+ @-o-keyframes Animate-js {
+ from {width: 10px;
+ }
+ to {width: 50%
+ }
+ }
+
+ #skill-jQuery {
+	animation: Animate-jQuery 5s;
+	-webkit-animation: Animate-jQuery 5s;
+	-moz-animation: Animate-jQuery 5s;
+	-o-animation: Animate-jQuery 5s;
+	width: 70%;
+	height: 45px;
+	position: absolute;
+	background-color: #e75140;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-webkit-keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-moz-keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-o-keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+#skill-php {
+	animation: Animate-PHP 4s;
+	-webkit-animation: Animate-PHP 4s;
+	-moz-animation: Animate-PHP 4s;
+	-o-animation: Animate-PHP 4s;
+	width: 50%;
+	height: 45px;
+	position: absolute;
+	background-color: #e75140;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-webkit-keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-moz-keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-o-keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+#skill-wordpress {
+ width: 60%;
+ animation: Animate-Wordpress 4s;
+ -webkit-animation: Wordpress 4s;
+ -moz-animation: Wordpress 4s;
+ -o-animation: Wordpress 4s;
+ height: 45px;
+ position: absolute;
+ background-color: #e75140;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ }
+ @keyframes Animate-Wordpress {
+ a from {width: 10px;
+ }
+ to {width: 60%
+ }
+ }
+ @-webkit-keyframes Animate-Wordpress {
+ from {width: 10px;
+ }
+ to {width: 60%
+ }
+ }
+ @-moz-keyframes AAnimate-Wordpress {
+ from {width: 10px;
+ }
+ to {width: 60%
+ }
+ }
+ @-o-keyframes Animate-Wordpress {
+ from {width: 10px;
+ }
+ to {width: 60%
+ }
+ }
+
+#skill-photoshop {
+	animation: Animate-Photoshop 5s;
+	-webkit-animation: Animate-Photoshop 5s;
+	-moz-animation: Animate-Photoshop 5s;
+	-o-animation: Animate-Photoshop 5s;
+	width: 70%;
+	height: 45px;
+	position: absolute;
+	background-color: #E3D985;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Photoshop {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-webkit-keyframes Animate-Photoshop {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-moz-keyframes Animate-Photoshop {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-o-keyframes Animate-Photoshop {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+
+#skill-illustrator {
+	animation: Animate-Illustrator 5s;
+	-webkit-animation: Animate-Illustrator 5s;
+	-moz-animation: Animate-Illustrator 5s;
+	-o-animation: Animate-Illustrator 5s;
+	width: 65%;
+	height: 45px;
+	position: absolute;
+	background-color: #E3D985;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Illustrator {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-webkit-keyframes Animate-Illustrator {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-moz-keyframes Animate-Illustrator {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-o-keyframes Animate-Illustrator {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+
+#skill-indesign {
+	animation: Animate-InDesign 5s;
+	-webkit-animation: Animate-InDesign 5s;
+	-moz-animation: Animate-InDesign 5s;
+	-o-animation: Animate-InDesign 5s;
+	width: 65%;
+	height: 45px;
+	position: absolute;
+	background-color: #E3D985;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-InDesign {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-webkit-keyframes Animate-InDesign {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-moz-keyframes Animate-InDesign {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-o-keyframes Animate-InDesign {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+
+#skill-dreamweaver {
+	animation: Animate-Dreamweaver 5s;
+	-webkit-animation: Animate-Dreamweaver 5s;
+	-moz-animation: Animate-Dreamweaver 5s;
+	-o-animation: Animate-Dreamweaver 5s;
+	width: 70%;
+	height: 45px;
+	position: absolute;
+	background-color: #E3D985;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Dreamweaver {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-webkit-keyframes Animate-Dreamweaver {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-moz-keyframes Animate-Dreamweaver {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-o-keyframes Animate-Dreamweaver {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+
+#skill-premiere {
+	animation: Animate-Premiere 5s;
+	-webkit-animation: Animate-Premiere 5s;
+	-moz-animation: Animate-Premiere 5s;
+	-o-animation: Animate-Premiere 5s;
+	width: 30%;
+	height: 45px;
+	position: absolute;
+	background-color: #E3D985;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Premiere {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-webkit-keyframes Animate-Premiere {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-moz-keyframes Animate-Premiere {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-o-keyframes Animate-Premiere {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+
+#skill-photography {
+	animation: Animate-Photography 5s;
+	-webkit-animation: Animate-Photography 5s;
+	-moz-animation: Animate-Photography 5s;
+	-o-animation: Animate-Photography 5s;
+	width: 60%;
+	height: 45px;
+	position: absolute;
+	background-color: #f48668;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Photography {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-webkit-keyframes Animate-Photography {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-moz-keyframes Animate-Photography {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+@-o-keyframes Animate-Photography {
+ from {
+ width: 10px;
+}
+to {
+	width: 60%
+}
+}
+
+#skill-ukulele {
+	animation: Animate-Ukulele 5s;
+	-webkit-animation: Animate-Ukulele 5s;
+	-moz-animation: Animate-Ukulele 5s;
+	-o-animation: Animate-Ukulele 5s;
+	width: 30%;
+	height: 45px;
+	position: absolute;
+	background-color: #f48668;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Ukulele {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-webkit-keyframes Animate-Ukulele {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-moz-keyframes Animate-Ukulele {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-o-keyframes Animate-Ukulele {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+
+#skill-dance {
+	animation: Animate-Dance 5s;
+	-webkit-animation: Animate-Dance 5s;
+	-moz-animation: Animate-Dance 5s;
+	-o-animation: Animate-Dance 5s;
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	background-color: #f48668;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-Dance {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+@-webkit-keyframes Animate-Dance {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+@-moz-keyframes Animate-Dance {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+@-o-keyframes Animate-Dance {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
 }
