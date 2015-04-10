@@ -789,13 +789,48 @@ to {
 }
 }
 
-/* Testimonials Section */
+
+/* Education Section */
 
 #section4 {
 	background-color: #E3D985;
+	font-size: .9em;
 }
 
-#section4 h1 {
+#section4 h4, #section4 p {
+	margin: 0;
+}
+
+#section4 h2 {
+	margin: 40px 0 0 0;
+}
+
+#section4 h3 {
+	margin: 0 0 40px 0;
+}
+
+#section4 h5 {
+	margin: 30px 0 0 0;
+	text-transform: uppercase;
+}
+
+#section4 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#section4 ul li {
+	padding-bottom: 10px;
+}
+
+
+/* Testimonials Section */
+
+#section5 {
+	background-color: #f48668;
+}
+
+#section5 h1 {
 	font-size: 2.3em;
 }
 
