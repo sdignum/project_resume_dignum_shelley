@@ -120,6 +120,10 @@ span.dash-bottom {
 	margin-top: 0;
 }
 
+.job {
+	margin-bottom: 70px;
+}
+
 .arrow-box { 
 	padding: 15px;
 	position: relative; 
@@ -146,5 +150,4 @@ span.dash-bottom {
 	background-color: #4d4d4d;
 	color: #fff;
 	padding: 15px;
-	margin-bottom: 40px;
 }
