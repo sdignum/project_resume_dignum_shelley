@@ -79,6 +79,10 @@ section, footer {
 }
 
 span.dash-bottom {
+	animation: Animate-dash 3s;
+	-webkit-animation: Animate-dash 3s;
+	-moz-animation: Animate-dash 3s;
+	-o-animation: Animate-dash 3s;
     height: 80px;
     width: 1px;
     border-right: 1px dashed #fff;
@@ -87,6 +91,31 @@ span.dash-bottom {
     z-index: 1;
     left: 50%;
     margin-left: -1px;
+    margin-top: 5px;
+}
+@keyframes Animate-dash {
+	from {height: 0px;
+	}
+	to {height: 80px
+	}
+}
+@-webkit-keyframes Animate-dash {
+	from {height: 0px;
+	}
+	to {height: 80px
+	}
+}
+@-moz-keyframes Animate-dash {
+	from {height: 0px;
+	}
+	to {height: 80px
+	}
+}
+@-o-keyframes Animate-dash {
+	from {height: 0px;
+	}
+	to {height: 80px
+	}
 }
 
 #menu {
