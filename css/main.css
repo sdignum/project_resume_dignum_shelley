@@ -45,6 +45,8 @@ a {
 section, footer {
 	width: 100%;
 	padding: 25px;
+/*	height: 100vh;*/
+	overflow: hidden;
 }
 
 #section1 {
@@ -55,11 +57,15 @@ section, footer {
 	line-height: normal;
 }
 
+.height {
+	height: 100vh;
+}
+
 #section1 img {
-	width: 80%;
+	width: 85%;
 	max-width: 600px;
 	margin: auto;
-	margin: 80px 0 20px 0;
+	margin: 40px 0 20px 0;
 }
 
 .page-title h1 {
@@ -74,7 +80,7 @@ section, footer {
 #section1 p {
 	color: #000;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: 0;
 }
 
@@ -83,7 +89,7 @@ span.dash-bottom {
 	-webkit-animation: Animate-dash 3s;
 	-moz-animation: Animate-dash 3s;
 	-o-animation: Animate-dash 3s;
-    height: 80px;
+    height: 7%;
     width: 1px;
     border-right: 1px dashed #fff;
     display: block;
@@ -94,28 +100,32 @@ span.dash-bottom {
     margin-top: 5px;
 }
 @keyframes Animate-dash {
-	from {height: 0px;
+	from {height: 0;
 	}
-	to {height: 80px
+	to {height: 7%
 	}
 }
 @-webkit-keyframes Animate-dash {
-	from {height: 0px;
+	from {height: 0;
 	}
-	to {height: 80px
+	to {height: 7%
 	}
 }
 @-moz-keyframes Animate-dash {
-	from {height: 0px;
+	from {height: 0;
 	}
-	to {height: 80px
+	to {height: 7%
 	}
 }
 @-o-keyframes Animate-dash {
-	from {height: 0px;
+	from {height: 0;
 	}
-	to {height: 80px
+	to {height: 7%
 	}
+}
+
+nav {
+	
 }
 
 #menu {
@@ -126,7 +136,7 @@ span.dash-bottom {
 
 #menu a, #menu a:visited {
 	color: #fff;
-	line-height: .8;
+	line-height: .3;
 }
 
 #menu ul {
