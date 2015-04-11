@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	jQuery('.sticky').positionSticky();
+	$('.sticky').positionSticky();
 
 	$('body').animatescroll();
 })
