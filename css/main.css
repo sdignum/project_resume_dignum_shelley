@@ -941,8 +941,8 @@ footer .content {
 	margin-top: 150px;
 }
 
-h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1{
-	font-size: 4.5em;
+h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1 {
+	font-size: 60px;
 }
 
 #section2 h2 {
@@ -981,6 +981,14 @@ h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1{
 }
 
 @media (min-width: 1000px) {
+
+h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1 {
+	font-size: 72px;
+}
+
+#section1 img {
+	margin-top: 200px;
+}
 
 .skills {
 	width: 30%;
