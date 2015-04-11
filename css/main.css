@@ -61,6 +61,12 @@ section, footer {
 	line-height: normal;
 }
 
+.content {
+	max-width: 1200px;
+	width:90%;
+	margin: auto;
+}
+
 .height {
 	height: 100vh;
 }
