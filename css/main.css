@@ -909,8 +909,24 @@ footer a {
 	text-align: center;
 }
 
+.bio-pic {
+	width: 150px;
+	height: 150px;
+	background: white; 
+	-moz-border-radius: 75px; 
+	-webkit-border-radius: 75px; 
+	border-radius: 75px;
+}
+footer .content {
+	text-align: center;
+}
+
 #phone, #email {
 	font-size: 18px;
+}
+
+#phone {
+	margin-top: 10px;
 }
 
 #copy {
