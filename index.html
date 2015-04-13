@@ -28,8 +28,12 @@
             <nav>
                 <p>or click a section of interest</p>
                 <ul id="menu">
-                    <a href="#" onclick="$('#section2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>Work Experience</li></a>
-                    <a href="#" onclick="$('#section3').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});"><li>Skills</li></a>
+                    <li>
+                        <a href="#" class="jump-to-section" data-section="#section2">Work Experience</a>
+                    </li>
+                    <li>
+                        <a href="#" class="jump-to-section" data-section="#section3">Skills</a>
+                    </li>
                     <li>
                         <a href="#" id="jump-to-education">Education</a>
                     </li>
