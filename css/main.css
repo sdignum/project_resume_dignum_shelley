@@ -176,26 +176,26 @@ span.dash-bottom {
 	margin-bottom: 70px;
 }
 
-.arrow-box { 
+.arrow-box {
 	padding: 15px;
-	position: relative; 
-	background: rgba(255, 255, 255, 1); 
+	position: relative;
+	background: rgba(255, 255, 255, 1);
 	z-index: 5;
-} 
+}
 
-.arrow-box:after { 
-	bottom: 100%; 
-	left: 50%; 
-	border: solid transparent; 
-	content: " "; 
-	height: 0; 
-	width: 0; 
-	position: absolute; 
-	pointer-events: none; 
-	border-color: rgba(136, 183, 213, 0); 
-	border-bottom-color: rgba(255, 255, 255, 1);  
-	border-width: 20px; 
-	margin-left: -100px; 
+.arrow-box:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: rgba(255, 255, 255, 1);
+	border-width: 20px;
+	margin-left: -100px;
 }
 
 .tab {
@@ -912,9 +912,9 @@ footer a {
 .bio-pic {
 	width: 150px;
 	height: 150px;
-	background: white; 
-	-moz-border-radius: 75px; 
-	-webkit-border-radius: 75px; 
+	background: white;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
 	border-radius: 75px;
 }
 footer .content {
@@ -954,8 +954,8 @@ h1, #section2 h1, #section3 h1, #section4 h1, #section5 h1 {
 	float: right;
 	margin-bottom: 15px;
 }
-.arrow-box:after { 
-	opacity: 0; 
+.arrow-box:after {
+	opacity: 0;
 }
 
 .skills {
